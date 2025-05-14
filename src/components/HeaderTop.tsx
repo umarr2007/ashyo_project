@@ -17,7 +17,7 @@ const Header: React.FC = () => {
                   <Link className="font-normal text-[14px] leading-[1.3] text-[#545d6a]" to="/">About Us</Link>
                 </li>
                 <li>
-                  <Link className="font-normal text-[14px] leading-[1.3] text-[#545d6a]" to="/">Products</Link>
+                  <Link className="font-normal text-[14px] leading-[1.3] text-[#545d6a]" to="/products">Products</Link>
                 </li>
                 <li>
                   <Link className="font-normal text-[14px] leading-[1.3] text-[#545d6a]" to="/">Contacts</Link>
