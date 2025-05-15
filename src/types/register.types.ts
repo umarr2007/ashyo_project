@@ -11,4 +11,9 @@ export interface RegisterResponse {
     name: string;
     email: string;
   };
-} 
+}
+
+export interface RegisterProps {
+  onClose: () => void;
+  onSwitchToLogin: () => void;
+}
